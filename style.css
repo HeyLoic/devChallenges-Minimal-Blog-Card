@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Sora");
+
+body {
+    margin: 0%;
+    font-family: Sora;
+    background-color: #FAFAF9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    width: 368px;
+    height: auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    box-shadow: 6px 2px 40px rgba(0, 0, 0.1, 0.1);
+}
+
+#cactus-image {
+    height: 152px;
+    width: auto;
+    border-radius: 12px;
+    margin: 16px;
+}
+
+.design {
+    padding: 1px 16px 1px 16px
+}
+
+.tag {
+    border-radius: 12px;
+    background-color: #E6D6FC;
+    width: 70px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minipolice {
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0%;
+    color: #883AE1;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 6px;
+}
+p {
+    font-size: 14px;
+    color: #6C727F;
+    margin: 0%;
+    line-height: 1.5
+}
+
+.line {
+    border-top: 1px solid #E5EAF0;
+    padding: 20px 16px 20px 16px;
+    margin-bottom: 5px
+}
+
+.name {
+    font-size: 12px;
+    color: #6C727F;
+    font-weight: bold;
+}
